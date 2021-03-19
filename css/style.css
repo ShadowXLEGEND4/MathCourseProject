@@ -6,3 +6,11 @@ body{
 .main{
     background-color: white;
 }
+
+.navbar-nav{
+    color: white;
+}
+
+.h1{
+    font-size: 25px;
+}
