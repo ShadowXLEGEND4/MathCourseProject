@@ -5,8 +5,15 @@ body{
 
 .main{
     background-color: white;
+    min-height: 85vh;
 }
-
+#header
+{
+    min-height: 3vh;
+}
+.navbar{
+    min-height: 7vh;
+}
 .navbar-nav{
     color: white;
 }
