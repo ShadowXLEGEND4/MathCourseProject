@@ -3,9 +3,9 @@ body{
     background-color: #04bdb7;
 }
 
-.main{
+#main{
     background-color: white;
-    min-height: 85vh;
+    min-height: 90vh;
 }
 #header
 {
