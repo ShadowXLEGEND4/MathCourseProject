@@ -3,11 +3,6 @@ body{
     background-color: #04bdb7;
 }
 
-<<<<<<< HEAD
-.main, .footer{
-    background-color: white;
-    min-height: 90vh;
-=======
 #main{
     background-color: white;
     min-height: 90vh;
@@ -18,10 +13,13 @@ body{
 }
 .navbar{
     min-height: 7vh;
->>>>>>> 7fbde79245d47e50ccbf63a8683523625a249b44
 }
 .navbar-nav{
     color: white;
+}
+
+#header-nav{
+    color: black;
 }
 
 .h1{
