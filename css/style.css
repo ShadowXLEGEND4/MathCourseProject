@@ -8,6 +8,10 @@ body{
     background-color: #e5eaf0;
 }
 
+#header-nav{
+    color: black;
+}
+
 .h1{
     font-size: 25px;
 }
