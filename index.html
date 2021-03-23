@@ -15,12 +15,11 @@
 
 <body>
   <header id="header" class="mb-5">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
-      <div class="container">
+    <div class="container px-0">
+      <nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-light">
         <h1 class="h1 mr-5">Математика за всички!</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
@@ -52,21 +51,21 @@
   </header>
   <main id="main" class="container text-dark">
     <section class="container px-5 py-3">
-      <h1>Добре дошли!</h1>
+      <h2 id="h2">Добре дошли!</h2>
       <div class="image my-4 col-12 col-md-4">
         <img src="images/начало-2.png" alt="math picture">
       </div>
-      <p>Този сайт ще помогне във вашата подготовка по математика! В него ще откриете четири теми,
+      <p id="paragraph">Този сайт ще помогне във вашата подготовка по математика! В него ще откриете четири теми,
         които са от голямо значение за обучението Ви в десети клас. В темата "Аритметична прогресия"
         ще се запознаете какво представлява тази прогресия, примерни задачи, които ще Ви помогнат с разбирането на урока
         и ще Ви улеснят.
       </p>
-      <p>След всеки един урок ще Ви бъде предоставен тест, с който ще можете да проверите новите си знания.
+      <p id="paragraph">След всеки един урок ще Ви бъде предоставен тест, с който ще можете да проверите новите си знания.
         Той няма да бъде повече от 5-6 въпроса, с които точно и ясно ще разберете дали сте усвоили новите знания
       </p>
     </section>
     <section class="bg-light  container-fluid">
-      <h2>Съдържание</h2>
+      <h3 class="h1">Съдържание</h3>
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-3">
           <div class="card mb-4">
@@ -88,7 +87,7 @@
           <div class="card mb-4">
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              <p id="paragraph card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
@@ -106,10 +105,10 @@
     </section>
   </main>
   <footer id="footer" class="mt-5">
-    <div class="container-fluid text-center text-dark py-3 bg-light">
-      <p class="mb-0">&copy; All Rights Reserved 2021</p>
+    <div class="container text-center text-dark bg-light py-3">
+       <p class="mb-0">&copy; All Rights Reserved 2021</p>
     </div>
-  </footer>
+</footer>
   <script src="js/main.js"></script>
 </body>
 
