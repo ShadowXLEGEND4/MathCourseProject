@@ -1,29 +1,17 @@
 
 body{
-    background-color: #04bdb7;
+    background-color: #8ac0ff;
 }
 
-<<<<<<< HEAD
-.main, .footer{
-    background-color: white;
+#main {
     min-height: 90vh;
-=======
-#main{
-    background-color: white;
-    min-height: 90vh;
-}
-#header
-{
-    min-height: 3vh;
-}
-.navbar{
-    min-height: 7vh;
->>>>>>> 7fbde79245d47e50ccbf63a8683523625a249b44
-}
-.navbar-nav{
-    color: white;
+    background-color: #e5eaf0;
 }
 
 .h1{
     font-size: 25px;
+}
+
+img{
+    max-width: 100%;
 }
