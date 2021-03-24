@@ -1,6 +1,8 @@
-
 body{
     background-color: #8ac0ff;
+    font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
 }
 
 #main {
@@ -11,12 +13,11 @@ body{
     color: black;
 }
 
-.h1{
+h1{
     font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#h2{
+h2, h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -26,32 +27,39 @@ body{
     margin-bottom: 20px;
 }
 
-#paragraph{
-    font-style: oblique;
+a, a:hover, a:link, a:active{
+    text-decoration: none;
+    color:black;
+}
+
+p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav-item{
+p,.nav-item{
     font-style: oblique;
+}
+
+.nav-item{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+textarea{
+    resize: none;
+}
 img{
     max-width: 100%;
 }
-
-body{
-	font-size: 20px;
-	font-family: sans-serif;
-	color: #333;
-}
+/*test*/
 .question{
 	font-weight: 600;
     margin-bottom: 5px;
 }
+
 .answers {
   margin-bottom: 20px;
 }
+
 .answers label{
   display: block;
 }
