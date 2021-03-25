@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Образователен уебсайт</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="header" class="mb-5">
+    <div class="container px-0">
+      <nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <h1 class="h1 mr-5">Математика за всички!</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Начало</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">За нас</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Съдържание
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item px-1" href="arithmeticProgression.html">Аритметична прогресия</a>
+                <a class="dropdown-item px-1" href="#">Геометрична прогресия</a>
+                <a class="dropdown-item px-1" href="#">Статистика</a>
+                <a class="dropdown-item px-1" href="#">Тригинометрични зависимости в триъгълник</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Контакти</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+  </header>
+  <main id="main" class="container text-dark pb-3">
+    <section class="container px-5 py-3">
+      <h2 class="text-center pb-4">Аритметична прогресия!</h2>
+      <div class="image my-4 col-12 col-md-4">
+        <img src="images/aritmeticalProgression.jpg" alt="math picture" class="image-fluid rounded">
+      </div>
+      <p>В този урок ще се запознаем с един много често срещан клас редици. 
+          А именно аритметичните прогресии. Обикновено те са много лесни за забелязване. 
+          Това са редици, при които всеки член е по-голям от члена преди него с едно постоянно число . 
+          Целта ми е да установя кои от тези редици са аритметични прогресии. И след това, за да придобием 
+          известен опит с някои от означенията за редици, искам да ги определим или като функции, зададени 
+          явно за члена, който търсим, или като рекурентни определения. Първо, дадено е, че за една аритметична 
+          прогресия всеки член е по-голям от предишния с фиксирана величина.
+          <img src="images/math.jpg" alt="math pictures" class="image-fluid my-4 rounded mx-auto d-block">
+      </p>
+      <p>Аритметичната прогресия, както геометричната, с която ще се ззапознаете в другия урок си има теореми и формули. 
+          Аритметична прогресия наричаме, числова редица в която всеки член след първия се получава, като към предходния му член се прибави едно и също
+          число.
+          <img src="images/aritFormula.jpg" alt="aritmetic formula" class="image-fluid my-4 rounded mx-auto d-block">
+      </p>
+      <p>
+          Числото, което се прибавя към всеки член на една прогресия, за да се получи следващия ѝ член, се нарича <b>разлика</b>
+          на прогресията. Бележи се с английската буква <b>d</b>.
+      </p>
+      <p>
+        <img src="images/example.jpg" alt="example" class="image-fluid rounded mx-auto d-block">
+        <ul>
+          <li>
+            <p>
+              При <b>d>0</b> (редицата (а)) всеки член след първия е по-голям от предходния
+                  т.е. <b>аритметичната прогресия е растяща</b>.
+            </p>
+          </li>
+          <li>
+            <p>
+              При <b>d<0</b> (редицата(б)) всеки член след първия е по-малък от предходния
+                  т.е. <b>аритметичната прогресия е намаляваща</b>.
+            </p>
+          </li>
+          <li>
+            <p>
+              При <b>d=0</b> (редицата(в)) <b>всички членове</b> на аритметичната прогресия <b>са 
+              равни помежду си</b>.
+            </p>
+          </li>
+        </ul>
+      </p>
+      <div>
+        <h3>Примерни задачи</h3>
+        <!--трябда да са една до друга-->
+        <div class="img">
+        <img src="images/math task.jpg" alt="math tas" class="image-fluid rounded py-3 float-left">
+        <img src="images/math task1.jpg" alt="math task" class="image-fluid rounded py-3 float-right">
+        </div>
+      </div>
+      <!--бутона ако можеш да отиде вдясно-->
+      <div class="test-container">
+        <a href="testAritmetical.html">
+        <button id="submit">Test ☛</button>
+        </a>
+    </div>
+    </section>
+  </main>
+  <footer id="footer" class="mt-5">
+    <div class="container text-center text-dark bg-light py-3">
+       <p class="mb-0">&copy; Всички права са запазени 2021</p>
+    </div>
+</footer>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

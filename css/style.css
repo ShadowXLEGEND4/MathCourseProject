@@ -27,6 +27,12 @@ h2, h1{
     margin-bottom: 20px;
 }
 
+.img{
+    width: 300px;
+    height: 168px;
+
+}
+
 a, a:hover, a:link, a:active{
     text-decoration: none;
     color:black;
@@ -50,6 +56,10 @@ textarea{
 img{
     max-width: 100%;
 }
+
+.test-container{
+    margin-top: 55px;
+}
 /*test*/
 .question{
 	font-weight: 600;
@@ -63,6 +73,7 @@ img{
 .answers label{
   display: block;
 }
+
 #submit{
 	font-family: sans-serif;
 	font-size: 20px;
@@ -74,6 +85,7 @@ img{
 	cursor: pointer;
 	margin-bottom: 20px;
 }
+
 #submit:hover{
 	background-color: #38a;
 }
