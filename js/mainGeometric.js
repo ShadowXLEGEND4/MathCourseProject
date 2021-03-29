@@ -55,7 +55,7 @@
       }
     });
 
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    resultsContainer.innerHTML = `${numCorrect} от ${myQuestions.length}`;
   }
 
   const quizContainer = document.getElementById('quiz');
@@ -72,7 +72,7 @@
       correctAnswer: "b"
     },
     {
-      question: "2. С коя буква бележим частното на аритметичната прогресия?",
+      question: "2. С коя буква бележим частното на геометичната прогресия?",
       answers: {
         a: "d",
         b: "S",
