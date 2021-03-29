@@ -63,49 +63,49 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: "1. kolko me myrzi da tyrsq vyprosi?",
+      question: "1. Какво представлява геометричната прогресия?",
       answers: {
-        a: "Naistina mnogo",
-        b: "ne me myrzi prosto nema info",
-        c: "da"
+        a: "Числовва редица, в която всеки член след първия се получава, като предходния член добавим едно и също число",
+        b: "Числовва редица, в която всеки член след първия се получава, като предходния член умножим с  едно и също число",
+        c: "Числовва редица, в която всеки член след първия се получава, като предходния член разделим с едно и също число"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "2. С коя буква бележим частното на аритметичната прогресия?",
+      answers: {
+        a: "d",
+        b: "S",
+        c: "q"
       },
       correctAnswer: "c"
     },
     {
-      question: "2. Koi shte vyrje troika?",
+      question: "3. Коя геометрична прогресия е растяща?",
       answers: {
-        a: "Az",
-        b: "Ti",
-        c: "Hristo"
+        a: "2, 4, 8, 16, 19",
+        b: "10, 8, 6, 2",
+        c: "10, 6, 8, 12, 15",
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     },
     {
-      question: "3. Zashto pisha tova vmesto da pratq kvot napravih na ico",
+      question: "4. Дадена е геометрична прогресия, като а1=3 и q=2. Намерете а5 за геометричната прогресия",
       answers: {
-        a: "shtot sym typ",
-        b: "nz",
-        c: "3",
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "4. Дадена е аритметична прогресия, като а6=17 и d=3. Намерете първия член на прогресията?",
-      answers: {
-        a: "5",
-        b: "2",
+        a: "16",
+        b: "48",
         c: "3",
       },
       correctAnswer: "b"
     },
     {
-      question: "5. Намерете броя на членовете на аритметичната прогресия, за която е дадено а1=1, d=3, S=210",
+      question: "5. Намерете а1 за геометричната прогресия, ако: q=3 и S4=80",
       answers: {
-        a: "12",
-        b: "35",
-        c: "2",
+        a: "2",
+        b: "40",
+        c: "5",
       },
-      correctAnswer: "b"
+      correctAnswer: "a"
     }
   ];
 
