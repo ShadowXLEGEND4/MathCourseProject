@@ -16,124 +16,139 @@
 <body>
     <header id="header" class="mb-5">
         <div class="container px-0">
-            <nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-light">
-                <h1 class="h1 mr-5">Математика за всички!</h1>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Начало</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="about.html" class="nav-link">За нас</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Съдържание
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item px-1" href="arithmeticProgression.html">Аритметична
-                                    прогресия</a>
-                                <a class="dropdown-item px-1" href="geometricProgression.html">Геометрична прогресия</a>
-                                <a class="dropdown-item px-1" href="statistics.html">Статистика</a>
-                                <a class="dropdown-item px-1" href="#">Тригинометрични зависимости в триъгълник</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Контакти</a>
-                        </li>
-                    </ul>
-                </div>
+          <nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+            <h1 class="h1 mr-5">Математика за всички!</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Начало</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link">За нас</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Съдържание
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item px-1" href="arithmeticProgression.html">Аритметична прогресия</a>
+                    <a class="dropdown-item px-1" href="geometricProgression.html">Геометрична прогресия</a>
+                    <a class="dropdown-item px-1" href="statistics.html">Статистика</a>
+                    <a class="dropdown-item px-1" href="triangles.html">Тригинометрични зависимости в триъгълник</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Контакти</a>
+                </li>
+              </ul>
+            </div>
         </div>
         </nav>
-    </header>
+      </header>
     <main id="main" class="container text-dark pb-3">
         <section class="container px-5 py-3">
             <h2 class="text-center mb-4">Отношения в триъгълник</h2>
             <div>
                 <h3>Какво са тригонометричните функции</h3>
-                <p>Тригонометричните функции в математиката са функции на ъгли. Използват се в геометрията за изследване
-                    на триъгълници и моделиране на периодични процеси. </p>
+                <p>Тригонометричните функции в математиката са функции на ъгли. Представляват отношения между ъглите в
+                    триъгълника</p>
+                <img src="images/trig.png" alt="тригонометрия" class="mx-auto d-block w-50">
+                <ul class=" list-group text-center my-2">
+                    <li class="list-group-item">sin α = a/c</li>
+                    <li class="list-group-item">cos α = b/c</li>
+                    <li class="list-group-item">tg α = a/b</li>
+                    <li class="list-group-item">cotg α = b/a</li>
+                </ul>
             </div>
+
             <div>
                 <p>В приложената таблица са дадени стойностите на тригонометричните функции на някои ъгли от 0 до 180
                     градуса.
                 </p>
-                <table class="table table-sm  table-light table-bordered table-striped text-center">
+                <table class="table table-light table-bordered table-striped text-center">
                     <thead>
-                      <tr>
-                        <th scope="col">α</th>
-                        <th scope="col">0</th>
-                        <th scope="col">30</th>
-                        <th scope="col">45</th>
-                        <th scope="col">60</th>
-                        <th scope="col">90</th>
-                        <th scope="col">120</th>
-                        <th scope="col">135</th>
-                        <th scope="col">150</th>
-                        <th scope="col">180</th>
-                      </tr>
+                        <tr>
+                            <th scope="col">α</th>
+                            <th scope="col">0</th>
+                            <th scope="col">30</th>
+                            <th scope="col">45</th>
+                            <th scope="col">60</th>
+                            <th scope="col">90</th>
+                            <th scope="col">120</th>
+                            <th scope="col">135</th>
+                            <th scope="col">150</th>
+                            <th scope="col">180</th>
+                        </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <th scope="row">sin α</th>
-                        <td>0</td>
-                        <td>1/2</td>
-                        <td>√2/2</td>
-                        <td>√3/2</td>
-                        <td>1</td>
-                        <td>√3/2</td>
-                        <td>√2/2</td>
-                        <td>1/2</td>
-                        <td>0</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">cos α</th>
-                        <td>0</td>
+                        <tr>
+                            <th scope="row">sin α</th>
+                            <td>0</td>
+                            <td>1/2</td>
+                            <td>√2/2</td>
+                            <td>√3/2</td>
+                            <td>1</td>
+                            <td>√3/2</td>
+                            <td>√2/2</td>
+                            <td>1/2</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">cos α</th>
+                            <td>0</td>
 
-                        <td>√3/2</td>
-                        <td>√2/2</td>
-                        <td>1/2</td>
-                        <td>0</td>
-                        <td>-1/2</td>
-                        <td>-√2/2</td>
-                        <td>-√3/2</td> 
-                        <td>-1</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">tg α</th>
-                        <td>0</td>
-                        <td>√3/3</td>
-                        <td>1</td>
-                        <td>√3</td>
-                        <td>-</td>
-                        <td>-√3</td>
-                        <td>-1</td>
-                        <td>-√3/3</td>
-                        <td>0</td>
+                            <td>√3/2</td>
+                            <td>√2/2</td>
+                            <td>1/2</td>
+                            <td>0</td>
+                            <td>-1/2</td>
+                            <td>-√2/2</td>
+                            <td>-√3/2</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">tg α</th>
+                            <td>0</td>
+                            <td>√3/3</td>
+                            <td>1</td>
+                            <td>√3</td>
+                            <td>-</td>
+                            <td>-√3</td>
+                            <td>-1</td>
+                            <td>-√3/3</td>
+                            <td>0</td>
 
-                      </tr>
-                      <tr>
-                        <th scope="row">cotg α</th>
-                        <td>-</td>
-                        <td>√3</td>
-                        <td>1</td>
-                        <td>√3/3</td>
-                        <td>0</td>
-                        <td>-√3/3</td>
-                        <td>1</td>
-                        <td>-√3</td>
-                        <td>-</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">cotg α</th>
+                            <td>-</td>
+                            <td>√3</td>
+                            <td>1</td>
+                            <td>√3/3</td>
+                            <td>0</td>
+                            <td>-√3/3</td>
+                            <td>1</td>
+                            <td>-√3</td>
+                            <td>-</td>
 
-                      </tr>
+                        </tr>
                     </tbody>
-                  </table>
+                </table>
             </div>
-
+            <div>
+                <h3>Основни тригонометрични тъждества</h3>
+                <ul class=" list-group text-center my-2">
+                    <li class="list-group-item">sin<sup>2</sup> α + cos<sup>2</sup> α = 1</li>
+                    <li class="list-group-item">tg α . cotg α = 1 </li>
+                    <li class="list-group-item">tg α = sin α / cos α</li>
+                    <li class="list-group-item">cotg α = cos α / sin α</li>
+                </ul>
+            </div>
 
 
 
@@ -151,7 +166,9 @@
 
             <div>
                 <h3>Примерни задачи</h3>
-                <img src="images/geoExample.png" alt="example" class="img image-fluid my-4 rounded mx-auto d-block">
+                <img src="images/geoExampasdasdle.png"
+                    alt="dai tuka nqkva snimka i ako mislish che trqbva oshte info dobavi"
+                    class="img image-fluid my-4 rounded mx-auto d-block">
             </div>
             <div class="test-container text-right">
                 <a href="testGeometrical.html">
